@@ -1,0 +1,77 @@
+@import "tailwindcss";
+@import "slick-carousel/slick/slick.css";
+@import "slick-carousel/slick/slick-theme.css";
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  min-height: 100vh;
+  background-color: #111827;
+  overflow-x: hidden;
+}
+
+#root {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  min-height: 100vh;
+  text-align: left;
+  overflow-x: hidden;
+}
+
+
+
+.slick-dots li button:before {
+  color: #60a5fa !important;
+  font-size: 12px !important;
+}
+
+.dark .slick-dots li button:before {
+  color: #60a5fa !important;
+}
+
+.light .slick-dots li button:before {
+  color: #2563eb !important;
+}
+
+.slick-dots li.slick-active button:before {
+  color: #60a5fa !important;
+}
+
+.dark .slick-dots li.slick-active button:before {
+  color: #60a5fa !important;
+}
+
+.light .slick-dots li.slick-active button:before {
+  color: #2563eb !important;
+}
+
+.slick-prev:before,
+.slick-next:before {
+  color: #60a5fa !important;
+  font-size: 24px !important;
+}
+
+.dark .slick-prev:before,
+.dark .slick-next:before {
+  color: #60a5fa !important;
+}
+
+.light .slick-prev:before,
+.light .slick-next:before {
+  color: #2563eb !important;
+}
+
+.slick-prev {
+  left: -35px !important;
+}
+
+.slick-next {
+  right: -35px !important;
+}
+
+.slick-dots {
+  bottom: -50px !important;
+}
